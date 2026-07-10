@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 PathPilot AI
 
-## Getting Started
+**PathPilot AI** is a full-stack AI-powered career development platform that helps users accelerate their job search with intelligent career tools. Leveraging **Google Gemini AI**, the platform enables users to create ATS-friendly resumes, generate personalized cover letters, take AI-generated technical assessments, and stay updated with real-time industry trends—all from a single application.
 
-First, run the development server:
+## ✨ Features
+
+* 🤖 AI-powered ATS-optimized Resume Builder
+* ✉️ Personalized Cover Letter Generation
+* 🧠 AI-generated Technical Assessments
+* 📊 Performance Analytics Dashboard
+* 📈 Industry Pulse for hiring trends and in-demand skills
+* 🔐 Secure Authentication with Clerk
+* ⚡ Asynchronous AI workflows powered by Inngest
+* 📱 Responsive and modern user interface
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+* shadcn/ui
+* React Hook Form
+* Zod
+* Recharts
+
+### Backend
+
+* Prisma ORM
+* PostgreSQL
+* Inngest
+
+### AI & Authentication
+
+* Google Gemini AI
+* Clerk Authentication
+
+### Deployment
+
+* Vercel
+
+## 📸 Screenshots
+
+> Add screenshots or GIFs of:
+
+* Home Page
+* Resume Builder
+* Cover Letter Generator
+* Technical Assessment
+* Analytics Dashboard
+* Industry Pulse
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js (v18+)
+* PostgreSQL
+* Clerk Account
+* Google Gemini API Key
+
+### Installation
+
+```bash
+git clone https://github.com/ayushjha3/PathPilot.git
+cd PathPilot
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the root directory and configure the required environment variables.
+
+```env
+DATABASE_URL=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+GEMINI_API_KEY=
+
+INNGEST_EVENT_KEY=
+INNGEST_SIGNING_KEY=
+```
+
+### Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💡 What I Learned
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Building PathPilot AI provided hands-on experience with:
 
-## Learn More
+* Integrating Generative AI into a production-ready application
+* Building scalable full-stack applications using Next.js and Prisma
+* Managing secure authentication and user sessions with Clerk
+* Designing asynchronous workflows using Inngest
+* Working with PostgreSQL for efficient data management
+* Deploying and maintaining a modern SaaS application on Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## 🔮 Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* AI-powered mock interview sessions
+* Resume version management
+* Job application tracker
+* Multi-language support
+* Email notifications
+* Enhanced analytics and personalized recommendations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Author
 
-## Deploy on Vercel
+**Ayush Ranjan Jha**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* GitHub: https://github.com/ayushjha3
+* LinkedIn: *Add your LinkedIn profile*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub. Feedback, suggestions, and contributions are always welcome!
