@@ -2,6 +2,10 @@
 
 **PathPilot AI** is a full-stack AI-powered career development platform that helps users accelerate their job search with intelligent career tools. Leveraging **Google Gemini AI**, the platform enables users to create ATS-friendly resumes, generate personalized cover letters, take AI-generated technical assessments, and stay updated with real-time industry trends—all from a single application.
 
+## 🌐 Live Demo
+
+🔗 https://pathpilot-sigma.vercel.app
+
 ## ✨ Features
 
 * 🤖 AI-powered ATS-optimized Resume Builder
