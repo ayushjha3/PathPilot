@@ -117,7 +117,7 @@ Building PathPilot AI provided hands-on experience with:
 **Ayush Ranjan Jha**
 
 * GitHub: https://github.com/ayushjha3
-* LinkedIn: *Add your LinkedIn profile*
+* LinkedIn: www.linkedin.com/in/ayush-ranjan-jha-bb0653287/
 
 ## ⭐ Support
 
